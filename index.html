@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Github search</title>
+</head>
+<body>
+
+
+    <h1>Github search</h1>
+
+
+    <div class="container-search">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="text" id="userName" placeholder="Busca algún usuario de Github aqui." autocomplete="off">
+
+        <button id="btnSubmit" >Buscar</button>
+
+    </div>
+
+    <div class="container-result">
+
+        <img alt="" id="imgAvatar">
+
+        <div class="container-items">
+
+            <div class="item-set">
+
+                Respositorios
+                <p id="respositorios">
+                    
+                </p>
+
+            </div>
+            <div class="item-set">
+
+                Seguidores
+                <p id="seguidores" >
+                    
+                </p>
+
+            </div>
+
+            <div class="item-set">
+
+                Seguidos
+                <p id="seguidos">
+                    
+                </p>
+
+
+            </div>
+           
+
+        </div>
+
+        <p id="location">
+
+        </p>
+
+        <p id="type">
+
+        </p>
+
+    </div>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
